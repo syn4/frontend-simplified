@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+input {
+    outline:none;
+   }
+
+
+.purple{
+  
+    color: white;
+    border-radius: 24px;
+    background-color: rgb(100 21 255);
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    border: none;
+
+}
+
+.purple_text{
+    color: rgb(100 21 255);
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.025em;
+    
+}
+
+.nav_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.logo{
+    height: 42px;
+    padding-right: 10px;
+}
+
+.logo_name{
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    font-weight: 700;
+}
+
+.site_box{
+    padding: 2rem 8rem 2rem 8rem;
+}
+
+
+
+
+
+.link_list{
+    display: flex;
+    
+}
+
+.links{
+    margin-left: 24px;
+    list-style: none;
+     font-size: 14px;
+     padding-left: 10px; 
+     font-weight: bold;
+    
+}
+
+.link_space{
+    display: flex;
+    padding-left: 50px;  
+}
+
+.link{
+    color: rgb(50, 50, 50)
+}
+
+
+/* HOME PAGE */
+
+.home_page{
+display: flex;
+padding-top: 6rem;
+padding-bottom: 6rem;
+align-items: center;
+
+
+}
+
+.templates{
+    width: 40%;
+   
+}
+
+.working__lady-wrapper{
+    width: 60%;
+}
+
+.working_lady{
+    max-width: 48rem;
+}
+
+.main_header{
+    font-size: 3rem;
+    padding-bottom: 32px;
+    
+}
+
+.main_body{
+    padding-bottom: 32px;
+    color: rgb(111, 111, 111);
+
+}
+
+.email_box{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 100px;
+    height: 60px;
+    padding: 6px;
+    text-align: left;
+    width: 90%;
+    
+
+}
+
+
+
+.main_bottom{
+    padding-top: 4rem;
+    opacity: 40%;
+}
+
+.logo_strip{
+    width: 350px;
+}
+
+.logo__strip-para{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+
