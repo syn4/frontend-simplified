@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -65,7 +65,7 @@ nav{
 .logo_name{
     font-size: 24px;
     color: rgb(50, 50, 50);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .site_box{
@@ -133,6 +133,8 @@ align-items: center;
 .main_body{
     padding-bottom: 32px;
     color: rgb(111, 111, 111);
+    font-size: 18px;
+    line-height: 25px;
 
 }
 
@@ -174,6 +176,10 @@ margin-left: 10px;
 
 /* FEATURES */
 
+.features{
+    padding: 80px 0;
+}
+
 .features_row{
     display: flex;
     flex-direction: column;
@@ -184,11 +190,114 @@ margin-left: 10px;
 .services{
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
 
 }
 
 .group{
     width: calc(100%/3);
+    display: flex;
+    padding:24px;
+}
+
+.features_title{
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 24px;
+    letter-spacing: 0.15em;
+    
 }
 
 
+.features_subtitle{
+
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 24px;
+}
+
+.features_para{
+    text-align: center;
+    width: 40%;
+    padding-bottom: 40px;
+    color: rgb(111, 111, 111);
+
+}
+
+.services_para{
+    padding-top: 16px;
+    color: rgb(111, 111, 111);
+    line-height: 1.5rem;
+}
+
+.service_logo{
+    border: 1px solid rgba(0, 0, 0, 0.138);
+    border-radius: 80%;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center;
+   
+}
+
+.text_group{
+    padding-left: 24px;
+}
+
+
+
+/* QUALITY */
+
+.quality{
+    display: flex;
+
+}
+
+.quality_info{
+    width: 50%;
+
+
+}
+.quality__logo-wrapper{
+    width: 50%;
+}
+
+.quality_logo{
+    width: 100%;
+    border: 2px solid rgba(211, 211, 211, 0.183);
+}
+
+.quality_para{
+ padding-bottom: 32px;
+ font-size: 20px;
+ color: rgb(111, 111, 111);
+ 
+}
+
+
+/* GETTING STARTED */
+
+
+.get_started{
+    display: flex;
+    padding-top: 300px;
+}
+
+
+.started__logo-wrapper{
+    width: 50%;
+}
+
+.started_logo{
+    width: 100%;
+}
+
+
+.text_group{
+    width: 50%;
+
+}
+
+.started_info{
+    display: flex;
+    flex-direction: column;
+}
