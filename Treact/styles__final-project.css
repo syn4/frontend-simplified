@@ -26,7 +26,7 @@ input {
    }
 
 
-.purple{
+.purple {
   
     color: white;
     border-radius: 24px;
@@ -148,21 +148,26 @@ align-items: center;
     justify-content: space-between;
     border: 2px solid rgb(238, 238, 238);
     border-radius: 100px;
-    height: 60px;
+    height: 70px;
     padding: 6px 6px 6px 6px;
     text-align: left;
-    width: 90%;
+    width: 100%;
     
 
 }
 
 .button_wrapper{
-    display: flex;
+display: flex;
+padding-left: 20px;
 }
 
 .email{
     border: none;
 margin-left: 10px;
+}
+
+.purple_single{
+    text-align: center;
 }
 
 
@@ -354,6 +359,7 @@ margin-left: 10px;
 .mini_title{
     font-weight: 500;
     font-size: 20px;
+    
 }
 
 
@@ -374,6 +380,7 @@ margin-left: 10px;
 .pricing_para{
     max-width: 50%;
     
+    
 
 }
 
@@ -393,7 +400,7 @@ margin-left: 10px;
 }
 
 .plan{
-    border: 4px solid black;
+    box-shadow: 1px 1px 10px #888888;
     width: calc(100%/3);
     display: flex;
     flex-direction: column;
@@ -408,11 +415,16 @@ margin-left: 10px;
     padding: 24px 0;
     font-weight: 600;
     letter-spacing: 0.1em;
+
 }
 
 .plan_price{
     padding-bottom: 24px;
     font-size: 36px;
+        border-top-width: 2px;
+    border-bottom-width: 2px;
+    z-index: 100;
+   
 
 }
 
@@ -436,8 +448,21 @@ margin-left: 10px;
    
 }
 
+.plan_b{
+    background-image: linear-gradient(135deg, rgba(58, 66, 216, 0.812) 0%, rgba(79, 110, 248, 0.773) 100%);
+    color: white;
+}
 
+.plan__term-solo, .plan__info-solo{
+    opacity: 100%;
+}
 
+.purple__solo-button{
+   background-color:  rgb(247 250 252);
+   color:rgba(58, 66, 216, 0.812);
+   
+
+}
 
 
 
