@@ -16,6 +16,11 @@ a{
     
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+
 input {
     outline:none;
    }
@@ -144,11 +149,15 @@ align-items: center;
     border: 2px solid rgb(238, 238, 238);
     border-radius: 100px;
     height: 60px;
-    padding: 6px;
+    padding: 6px 6px 6px 6px;
     text-align: left;
     width: 90%;
     
 
+}
+
+.button_wrapper{
+    display: flex;
 }
 
 .email{
@@ -178,6 +187,7 @@ margin-left: 10px;
 
 .features{
     padding: 80px 0;
+    margin: 0 69px;
 }
 
 .features_row{
@@ -249,6 +259,9 @@ margin-left: 10px;
 
 .quality{
     display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
 
 }
 
@@ -273,18 +286,30 @@ margin-left: 10px;
  
 }
 
+.quality_wrapper{
+    width: 90%;
+}
+
 
 /* GETTING STARTED */
 
 
 .get_started{
     display: flex;
-    padding-top: 300px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin: 0 69px;
+
+   
 }
 
 
 .started__logo-wrapper{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .started_logo{
@@ -293,7 +318,8 @@ margin-left: 10px;
 
 
 .text_group{
-    width: 50%;
+    width: 80%;
+   
 
 }
 
@@ -301,3 +327,117 @@ margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
+
+.started{
+    width: 50%;
+    padding: 0 30px;
+}
+
+.group_1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+
+.started_head{
+    opacity: 20%;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.service_para{
+    color: rgb(111, 111, 111);
+ 
+}
+
+.mini_title{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+/* PRICING PLANS HEADER */
+
+.pricing{
+    padding-top: 6rem;
+    margin: 0 69px;
+}
+
+.pricing_header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.pricing_para{
+    max-width: 50%;
+    
+
+}
+
+.pricing__para-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PLANS */
+
+.pricing_plans{
+    display: flex;
+    width: 100%;
+    
+}
+
+.plan{
+    border: 4px solid black;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+    border-radius: 10px;
+    
+}
+
+.plan_title{
+    padding: 24px 0;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.plan_price{
+    padding-bottom: 24px;
+    font-size: 36px;
+
+}
+
+
+.plan_term{
+    padding-bottom: 24px;
+    font-weight: 600;
+    opacity: 40%;
+    letter-spacing: 0.1em;
+}
+
+.plan_info{
+    padding-bottom: 24px;
+    opacity: 40%;
+    
+
+}
+
+.pricing__button-wrapper{
+    padding: 24px 0;
+   
+}
+
+
+
+
+
+
