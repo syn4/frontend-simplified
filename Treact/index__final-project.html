@@ -7,9 +7,10 @@
     <title>Free Modern React Templates</title>
     <link rel="stylesheet" href="styles__final-project.css" />
     <script
-      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      src="https://kit.fontawesome.com/c0944690c8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="site_box">
@@ -51,6 +52,36 @@
             </div>
           </ul>
         </container>
+
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">About</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">Blog</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">Pricing</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">Contact Us</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()">Login</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link"onclick="closeMenu()"
+                ><span class="purple">Sign Up</span></a>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <section class="home_page">
@@ -350,8 +381,8 @@
         </div>
       </section>
     </div>
-      <footer>
-        <div class="footer_row">
+    <footer>
+      <div class="footer_row">
         <div class="footerlinks">
           <div class="linksbox">
             <ul class="main_links">
@@ -444,19 +475,18 @@
           </a>
           <p class="low_opacity">2018 Treact Inc. All Rights Reserved.</p>
           <div class="footer_links">
-            <a class="footer_socials"href="">
-                <i class="fa-brands fa-facebook"></i>
+            <a class="footer_socials" href="">
+              <i class="fa-brands fa-facebook"></i>
             </a>
-            <a class="footer_socials"href="">
-                <i class="fa-brands fa-square-twitter"></i>
+            <a class="footer_socials" href="">
+              <i class="fa-brands fa-square-twitter"></i>
             </a>
-            <a class="footer_socials"href="">
-                <i class="fa-brands fa-youtube"></i>
+            <a class="footer_socials" href="">
+              <i class="fa-brands fa-youtube"></i>
             </a>
           </div>
         </div>
-    </div>
-      </footer>
-    
+      </div>
+    </footer>
   </body>
 </html>
